@@ -9,6 +9,7 @@
 3. **Feature Encoding**: Both image and text prompts are encoded into a shared feature space using the model.
 4. **Similarity Scoring**: The similarity between image features and each text prompt is calculated.
 5. **Prediction**: The class with the highest similarity score is assigned to the image.
+6. for fine-tuning CLIP see [A beginner's guide to fine-tuning the CLIP model for your downstream tasks using OpenClip.](https://github.com/MjdMahasneh/fine-tuning_CLIP.git)
 
 This approach allows CLIP to classify images without task-specific training.
 
